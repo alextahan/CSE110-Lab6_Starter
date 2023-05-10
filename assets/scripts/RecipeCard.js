@@ -10,7 +10,6 @@ class RecipeCard extends HTMLElement {
     // A1. TODO - Attach the shadow DOM to this Web Component (leave the mode open)
     const shadow = this.attachShadow({ mode: "open" });
 
-
     // A2. TODO - Create an <article> element - This will hold our markup once our data is set
     const article = document.createElement('article');
 
@@ -126,7 +125,7 @@ class RecipeCard extends HTMLElement {
     if (!data) return;
 
     // A6. TODO - Select the <article> we added to the Shadow DOM in the constructor
-    let article = this.shadowRoot.querySelector('article');
+    const article = this.shadowRoot.querySelector('article');
 
 
     // A7. TODO - Set the contents of the <article> with the <article> template given in
