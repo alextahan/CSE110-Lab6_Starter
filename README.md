@@ -4,4 +4,4 @@ Alexander Tahan
 
 Andrew Onozuka
 
-published page goes here
+[Published Page](https://alextahan.github.io/CSE110-Lab6_Starter/)
